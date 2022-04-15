@@ -49,9 +49,12 @@ ul li button {
 li.slick-active button::before {
   color: white;
 }
+.slick-track {
+  flex-wrap: nowrap;
+  display: flex;
+}
 .slick-list {
   overflow: visible;
-
       margin: 2rem .45rem;
 }
 margin-bottom: 6rem;

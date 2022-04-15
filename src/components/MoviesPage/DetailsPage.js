@@ -6,13 +6,18 @@ const DetailsPage = () => {
     <Container imgUrl="/images/gridImages/2.png">
       <Header />
       <MovieInfo>
-        <h2>oussama bennabi</h2>
+        {/* <img/> */}
         <ButtonsContainer>
+          <div className='btns'>
           <button className='btn-play'><img src='/images/play-icon-black.png' alt='play' />PLAY</button>
           <button className='btn-trailer'><img src='/images/play-icon-white.png' alt='trailer' />TRAILER</button>
 
+          </div>
+          <div className='icons'>
           <img className="icon" src='/images/watchlist-icon.svg' alt='watchlist' />
           <img className="icon" src='/images/group-icon.png' alt='group-icon' />
+
+          </div>
         </ButtonsContainer>
         <MovieDescription>
           <h5 className='movie-stats'>2018&#x2022;7m&#x2022;Family,Fantasy,Kids,Animation</h5>
@@ -57,6 +62,14 @@ display: flex;
 justify-content: center;
 align-items: center;
 gap: 1rem;
+  .btns {
+    display: flex;
+    gap: 1rem;
+  }
+  .icons {
+    display: flex;
+    gap: 1rem;
+  }
   button {
     border-radius: 0.2rem;
     border: none;
@@ -90,6 +103,14 @@ gap: 1rem;
     border-radius: 50%;
     padding: 0.2rem;
 
+  }
+  @media screen and (max-width:456px){
+    flex-direction: column;
+    align-items: flex-start;
+    button {
+      margin-bottom: 1rem;
+      transform: scale(.88);
+    }
   }
 `
 const MovieDescription = styled.div`
