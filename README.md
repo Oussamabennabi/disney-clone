@@ -2,9 +2,9 @@
 [click here!](https://disney-plus-clone-oussama.netlify.app/)
 
 
-
-<img width="100%" src="https://user-images.githubusercontent.com/88546612/166706297-e42b76d1-c626-48b4-99a1-eec33838c0cf.png)"/>
-
+<div align='center'>
+  <img src="https://user-images.githubusercontent.com/88546612/166707705-e3a4afbc-eb3b-4bc7-a473-e129b657f732.png"/>
+</div>
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
