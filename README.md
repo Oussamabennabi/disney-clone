@@ -3,7 +3,7 @@
 
 
 
-<img src="https://user-images.githubusercontent.com/88546612/166705904-bde5e719-15a1-4a72-85bc-0b0fc15e40fc.png"/>
+<img width="100%" src="https://user-images.githubusercontent.com/88546612/166705904-bde5e719-15a1-4a72-85bc-0b0fc15e40fc.png"/>
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
